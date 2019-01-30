@@ -3,9 +3,6 @@ html{
 	font-family: helvetica;
 }
 
-body{
-	width: 960px;
-}
 
 /*Top Logo Header*/
 
@@ -72,16 +69,14 @@ nav{
 	width: 100%;
 }
 
-nav span{
-	/*padding-left: 5rem;*/
-}
 
 /*Main Content Items*/
 
 .content{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	margin-top: 3rem;
+	width: 960px;
 }
 
 .title{ /*applied to all titles*/
@@ -97,11 +92,13 @@ nav span{
 
 .item{
 	width: 30%;
+	position: relative;
 	border: 4px solid black;
 	margin: 2rem;
 }
 
 .item img{
+	max-width: 100%;
 	height: 9rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
