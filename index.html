@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>Secret Agent Supply Inc.</title>
-
 	<link rel="stylesheet" type="text/css" href="resources/reset.css">
 	<link rel="stylesheet" type="text/css" href="resources/style.css">
 </head>
@@ -23,7 +22,7 @@
 	</div>
 
 	<!-- Navigation Bar -->
-	<nav>
+	<nav class="desktop-nav">
 		<span>Eyewear</span>
 		<span>Apparel</span>
 		<span>Gadgets</span>
@@ -32,38 +31,55 @@
 		<span>Contact</span>
 	</nav>
 
+	<!-- Mobile Navigation Bar -->
+
+	<nav class="mobile-nav">
+		<span>Menu</span>
+	</nav>
+
 	<!-- Main Content Items -->
 
-	<div class="content">	
-		<div class="item">
-			<img src="resources/pen.png">
-			<p class="title center">Exploding Pen</p>
-		</div>
+	<span class="containter">	
+		<div class="content">
+			<div class="products">
+				<div class="item">
+					<div class="image">
+						<img src="resources/pen.png">
+					</div>
+					<sp class="title center">Exploding Pen</p>
+				</div>
 
-		<div class="item">
-			<img src="resources/watch.png">
-			<p class="title center">Cellular Watch</p>
-		</div>
+				<div class="item">
+					<div class="image watch">
+						<img src="resources/watch.png">
+					</div>
+					<p class="title center">Cellular Watch</p>
+				</div>
 
-		<div class="item">
-			<img src="resources/glasses.png">
-			<p class="title center">Thermal Glasses</p>
-		</div>
-	</div>	
+				<div class="item glasses">
+					<div class="image">
+						<img src="resources/glasses.png">
+					</div>
+					<p class="title center">Thermal Glasses</p>
+				</div>
+			</div>	
+		</div>	
 
-	<!-- More info -->
+		<!-- More info -->
 
-	<div class="info">	
-		<div class="location">
-			<p class="padding title">Location</p>
-			<p>-47.346436, 84.32354</p>
-		</div>
+		<div class="info">	
+			<div class="location">
+				<p class="padding title">Location</p>
+				<p>-47.346436, 84.32354</p>
+			</div>
 
-		<div class="location">
-			<p class="padding title">Hours</p>
-			<p>0800 - 1800</p>
-		</div>
-	</div>	
+			<div class="location">
+				<p class="padding title">Hours</p>
+				<p>0800 - 1800</p>
+			</div>
+		</div>	
+	</span>	
+
 
 	<!-- Footer -->
 
