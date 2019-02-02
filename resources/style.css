@@ -139,6 +139,23 @@ nav{
 	display: none;
 }
 
+/*Footer*/
+
+footer{
+	display: flex;
+	align-items: center;
+	background-color: black;
+	height: 5rem;
+}
+
+footer p{
+	color: white;
+	padding-left: 2rem;
+}
+
+
+/*Media Queries*/
+
 /*iPad Screen Viewing*/
 
 @media only screen and (max-width: 1024px){
@@ -164,45 +181,61 @@ nav{
 /*Mobile Screen Viewing*/
 
 @media only screen and (max-width: 470px){
-	.arrival{
-		padding-top: 1rem;
+
+	header img{
+		padding-left: 0.5rem;
+	}
+
+	.black{
+		top: 10rem;
+		padding: 1rem 2rem;
 		font-size: 0.77rem;
 		font-weight: bold;
+		margin-left: 0;
+		width: auto;
 	}
 
 	.sport{	
 		font-size: 1rem;
 		font-weight: bold;
-		padding-left: 2rem;
-	}
-
-	.black{
-		top: 10rem;
 	}
 
 	.main{
 		height: 15rem;
 	}
 
+	.content{
+		margin-top: 0;
+	}
+
+	.products{
+		justify-content: center;
+	}
+
+	.pen{
+		width: 90%;
+	}
+
 	.watch{
 		display: none
 	}
 
-	footer p{
-		text-align: center;
+	.info{
+		flex-direction: column;
+		margin: 1rem 0 3rem 2rem;
 	}
-}
 
-/*Footer*/
+	.location{
+		width: 90%;
+		margin-bottom: 0.5rem;
+	}
 
-footer{
-	display: flex;
-	align-items: center;
-	background-color: black;
-	height: 5rem;
-}
+	footer{
+		justify-content: center;
+		height: 10rem;
+	}
 
-footer p{
-	color: white;
-	padding-left: 2rem;
+	footer p{
+		padding: 0;
+	}
 }
